@@ -32,9 +32,9 @@ def play(arr)
 end
 
 
-# def exit_jukebox  
-#   return "Goodbye"
-# end
+def exit_jukebox  
+  return "Goodbye"
+end
 
 
 # def run 
