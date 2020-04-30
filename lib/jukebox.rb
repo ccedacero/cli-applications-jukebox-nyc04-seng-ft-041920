@@ -45,10 +45,10 @@ while command != 'exit'
 case command 
 
 when "play"
- play()
+ play(songs)
 
 when "list"
-list()
+list(songs)
 
 when "help"
   help 
