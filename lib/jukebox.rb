@@ -48,7 +48,7 @@ when "play"
  play(arr)
 
 when "list"
-list
+list(arr)
 
 when "help"
   help 
