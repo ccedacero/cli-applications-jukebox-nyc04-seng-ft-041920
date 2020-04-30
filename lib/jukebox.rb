@@ -33,7 +33,7 @@ end
 
 
 def exit_jukebox  
-  return "Goodbye"
+  puts "Goodbye"
 end
 
 
