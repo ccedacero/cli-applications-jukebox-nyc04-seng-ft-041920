@@ -28,7 +28,7 @@ def play(arr)
       return
     end
   end
-  return "Invalid input, please try again"
+  puts "Invalid input, please try again"
 end
 
 
