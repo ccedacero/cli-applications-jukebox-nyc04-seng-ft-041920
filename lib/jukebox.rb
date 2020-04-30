@@ -20,10 +20,12 @@ def play(arr)
   arr.each_with_index do |val, ind|
     if (song_to_play == val) 
       puts "Playing #{song_to_play}"
+      return
     end
     song = song_to_play.to_i 
     if (song> 0 && song < 10)
       puts "Playing #{arr[song-1]}"
+      return
     end
   end
   return "Invalid input, please try again"
