@@ -37,7 +37,7 @@ def exit_jukebox
 end
 
 
-def run 
+def run(songs) 
 command = nil
 while command != 'exit'
   puts "Please enter a command:"
@@ -45,7 +45,7 @@ while command != 'exit'
 case command 
 
 when "play"
- play
+ play(arr)
 
 when "list"
 list
