@@ -45,10 +45,10 @@ while command != 'exit'
 case command 
 
 when "play"
- play(arr)
+ play()
 
 when "list"
-list(arr)
+list()
 
 when "help"
   help 
