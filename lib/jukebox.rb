@@ -36,23 +36,23 @@ def exit_jukebox
 end
 
 
-def run 
-command = nil
-while command != 'exit'
-  puts "Please enter a command:"
-  command = gets.strip
-case command 
+# def run 
+# command = nil
+# while command != 'exit'
+#   puts "Please enter a command:"
+#   command = gets.strip
+# case command 
 
-when "play"
- puts play(arr)
+# when "play"
+# puts play(arr)
 
-when "list"
-list(arr)
+# when "list"
+# list(arr)
 
-when "help"
-  help 
-end
-end
-exit_jukebox
-end
-run
+# when "help"
+#   help 
+# end
+# end
+# exit_jukebox
+# end
+# run
